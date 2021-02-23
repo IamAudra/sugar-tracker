@@ -1,5 +1,5 @@
-function SugarTracker () {
-    return (
+export const SugarTracker = () => (
+
         <div className="p-10">
             Sugar Tracker
             Input Food Data
@@ -7,5 +7,3 @@ function SugarTracker () {
 
         </div>
     )
-}
-export default SugarTracker

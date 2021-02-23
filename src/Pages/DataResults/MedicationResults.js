@@ -1,5 +1,5 @@
-function MedicationResults() {
-    return (
+export const MedicationResults = () => (
+
         <div className="">
             Boilerplate of Medication site
             Input for medication
@@ -8,6 +8,6 @@ function MedicationResults() {
 
         </div>
     )
-}
 
-export  default MedicationResults
+
+

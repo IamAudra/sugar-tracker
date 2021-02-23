@@ -1,13 +1,12 @@
 export const NavBar = () => (
     <div className ="flex">
         <ul className="flex">
-            <li>Medication List</li>
-            <li>Recipe Page</li>
-            <li>Decision/Comment Board</li>
-            <li>Upload Documents
-                           </li>
-            <li>FitBit</li>
-            <li>Food Data Request</li>
+            <li className="ml-3"> List</li>
+            <li className="ml-3"> Recipe Page</li>
+            <li className="ml-3"> Decision/Comment Board</li>
+            <li className="ml-3"> Upload Documents</li>
+            <li className="ml-3"> FitBit</li>
+            <li className="ml-3"> Food Data Request</li>
         </ul>
-</>div>
+</div>
 )

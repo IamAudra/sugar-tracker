@@ -1,9 +1,15 @@
-export const SugarTracker = () => (
+import {Footer, NavBar} from "../../Components";
 
-        <div className="p-10">
+export const SugarTracker = () => (
+    <>
+        <NavBar/>
+        <div className="p-10 bg-blue-600" >
             Sugar Tracker
             Input Food Data
             ESHA API to get data
-
         </div>
+        <Footer/>
+    </>
+
+
     )

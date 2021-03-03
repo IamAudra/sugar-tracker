@@ -1,18 +1,17 @@
 import {Route, Switch} from 'react-router-dom'
 import {Homepage} from "./Pages/Homepage"
-import {MedicationResults} from "./Pages/DataResults"
-import {FitBit} from "./Pages/DataResults"
-import {SugarTracker} from "./Pages/DataResults";
-
+import {MedicationResults, SugarTracker, RecipePages, FitBit} from "./Pages/DataResults"
 
 function App() {
+
+
     return (
         <Switch>
             <Route exact path="/" component={Homepage}/>
-            <Route exaxt path="Pages" component={MedicationResults}/>
-            <Route exact path="Pages/DataResults" component={FitBit}/>
-
-
+            <Route exact path="bit" component={FitBit}/>
+            <Route exact path="sugar" component={SugarTracker}/>
+            <Route exact path="medication" component={MedicationResults}/>
+            <Route exact path="recipes" component={RecipePages}/>
         </Switch>
 
     );

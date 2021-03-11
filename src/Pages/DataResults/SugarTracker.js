@@ -1,10 +1,11 @@
+import {Footer, NavBar} from "../../Components";
 export const SugarTracker = () => (
     <>
         <NavBar/>
 
         <div className=" bg-blue-200 h-screen text-purple-700">
 
-            <div clasName=" text-2xl">
+            <div className=" text-2xl">
 
                 <p className="px-6 flex justify-center text-6xl p-16 text-purple-700">
                     What would you like to eat today?

@@ -4,6 +4,8 @@ export  {RecipePages} from './RecipePages'
 export  {SugarTracker} from './SugarTracker'
 export {CommentPage} from './CommentPage'
 export {LoginPage} from './LoginPage'
+export {About} from './About'
+export {Contact} from './Contact'
 
 
 

@@ -3,6 +3,7 @@ import {Homepage} from "./Pages/Homepage"
 import {MedicationResults, SugarTracker, RecipePages, CommentPage, FitBit, About, Contact} from "./Pages/DataResults"
 
 
+
 function App() {
 
 

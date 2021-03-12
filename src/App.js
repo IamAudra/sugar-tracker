@@ -4,6 +4,7 @@ import {MedicationResults, SugarTracker, RecipePages, CommentPage, FitBit, About
 
 
 
+
 function App() {
 
 
@@ -17,6 +18,7 @@ function App() {
             <Route exact path="/note" component={CommentPage}/>
             <Route exact path="/contact" component={Contact}/>
             <Route exact path="/about" component={About}/>
+           
         </Switch>
 
     );

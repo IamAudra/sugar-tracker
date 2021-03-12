@@ -25,6 +25,10 @@ export const NavBar = () => (
             <li className="ml-3">
                 <Link to ="/about">About</Link>
             </li>
+            <li className="ml-3">
+                <Link to ="/meds">Meds</Link>
+            </li>
+            
         </ul>
 </div>
 )
